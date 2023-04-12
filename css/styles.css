@@ -2,6 +2,7 @@
   --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
   --primary-background-color: #ffffff;
+  --color-logo: #4d5ae5;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -147,11 +148,12 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
-}
-.part-logo {
   color: #4d5ae5;
 }
+.part-logo {
+  color: #f4f4fd;
+}
+
 /* =============/Footer============= */
 
 /* =============Portfolio============= */
@@ -164,7 +166,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--color-logo);
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
