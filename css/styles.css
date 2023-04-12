@@ -128,19 +128,30 @@ body {
 /* =============/OUR TEAM============= */
 /* =============Footer============= */
 
-.footer-text {
-  color: #f4f4fd;
+.footer-text: {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.logo-footer {
-  color: #f4f4fd;
-}
+
 .container-footer {
   background: #2e2f42;
+  color: #f4f4fd;
 }
-
+.bottom-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.part-logo {
+  color: #4d5ae5;
+}
 /* =============/Footer============= */
 
 /* =============Portfolio============= */
