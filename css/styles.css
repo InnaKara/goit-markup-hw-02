@@ -1,5 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #434455;
+  font-weight: 400;
 }
 .list {
   list-style: none;
@@ -17,11 +20,8 @@ body {
 }
 
 .description {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .section-heading {
@@ -30,41 +30,50 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
+
 /* =============/COMPONENTS============= */
 
 /* =============Шапка============= */
-.part-logo {
-  color: #4d5ae5;
-}
 .logo {
-  color: #2e2f42;
-  font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
+  font-size: 18px;
   line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-part {
+  color: #2e2f42;
 }
 .menu-item {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
+}
+
 .contact {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
   font-style: normal;
+  color: #434455;
 }
-/* =============/Шапка============= */
+
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+/* =================/Шапка=============== */
 
 /* =============HERO STUDIO============= */
 .hero {
@@ -80,12 +89,19 @@ body {
 .btn-order {
   background: #4d5ae5;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+
+.btn-order {
+  cursor: pointer;
+}
+.btn-order:hover,
+.btn-order:focus {
+  background: #404bbf;
 }
 
 /* =============/HERO STUDIO============= */
@@ -97,3 +113,58 @@ body {
   background-color: #ffffff;
 }
 /* =============/OUR TEAM============= */
+/* =============Footer============= */
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo-footer {
+  color: #f4f4fd;
+}
+.container-footer {
+  background: #2e2f42;
+}
+
+/* =============/Footer============= */
+
+/* =============Portfolio============= */
+.filter-buttons {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.filter-buttons:hover,
+.filter-buttons:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.filter-buttons {
+  cursor: pointer;
+}
+
+.work-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.work-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* =============/Portfolio============= */ ;
