@@ -1,3 +1,6 @@
+:root {
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -31,6 +34,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
 }
 
 /* =============/COMPONENTS============= */
@@ -61,8 +65,10 @@ body {
 .menu-item:focus {
   color: #404bbf;
 }
-
-.contact {
+.contact-info {
+  font-style: normal;
+}
+. .contact {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
@@ -85,6 +91,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .btn-order {
   background: #4d5ae5;
@@ -94,6 +101,9 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.04em;
 }
 
 .btn-order {
